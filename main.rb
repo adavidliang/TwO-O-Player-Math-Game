@@ -5,21 +5,21 @@ require './newturn'
 
 player = ""
 p1 = Player.new
-p1.player = "Test"
+p1.player = "player1"
 p1.life = 3
 p1.score = 0
 p2 = Player.new
-p2.player = "Test2"
+p2.player = "player2"
 p2.life = 3
 p2.score = 0 
 
 i = 0
-while i < 30
+while i < 19
   if(player == "")
     player = p1.player
-  elsif(player == "Test")
+  elsif(player == "player1")
     player = p2.player
-  elsif(player == "Test2")
+  elsif(player == "player2")
     player = p1.player
   end
 
